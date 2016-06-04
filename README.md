@@ -7,6 +7,7 @@
 * 及時更新ticket狀態
 * 積極主動，快速響應，主動push影響自己進度的同事
 * 通過screenhero進行遠程溝通
+
 ### Git
 * 遵循: https://github.com/thoughtbot/guides/tree/master/protocol/git
 * 遵循git flow。
@@ -19,12 +20,14 @@
     1. If applied, this commit will...
     2. Explain why this change is being made
     3. Provide links to any relevant tickets, articles or other resources
+
 ### Code Review
 * 遵循https://github.com/thoughtbot/guides/tree/master/code-review 。
 * merge request 要盡量簡短，以保證能快速的被接受，不阻塞後續的開發。
 * merge request 發出之後，要口頭或通過聊天工具通知指定的人，並推動被指定者及時review。
 * 及時review別人指定給自己的merge request。
 * 及時回應別人的comment，若需新的commit，要及時push並回復告知。
+
 ### Docker
 * 使用比較知名成熟的base image。
 * 將基礎庫和工具放在base image裡。
@@ -34,6 +37,7 @@
 * 將程序相關的配置文件放在image外面，在run container的時候再掛載。
 * 將log文件掛載在container 之外。
 * 按照時間段分割日誌文件。
+
 ### Rails
 ------------------------------------
 - coding style
@@ -65,6 +69,7 @@
   * 在開發早期生產足夠多，盡量真實的數據來支撐測試。為每個model的seed都放在單獨的文件裡並存放在db/seeds/{order}_{model_name}s.rb，然後在db/seeds.rb中按文件名require。
   * 嘗試將項目中比較成熟的功能模塊開源出來，發佈到github，並打包成gem發佈到 rubygems.org。
   * 不斷跟踪rails、ruby的發展進度，並將滿足條件的新的feature、bugfix應用到項目中ãA
+
 ### Javascript
 ------------------------------------
 - coding style
