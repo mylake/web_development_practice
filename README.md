@@ -15,7 +15,7 @@
 * 接受 merge request時要刪除對應的branch。
 * 為branch起有意義的名字。
 * 一個commit 只會做一件事，避免一個commit做多件事或多個commit做一件事。
-* commit message 盡量詳細。 
+* commit message 盡量詳細。
   參考 http://codeinthehole.com/writing/a-useful-template-for-commit-messages/
     1. If applied, this commit will...
     2. Explain why this change is being made
@@ -37,6 +37,13 @@
 * 將程序相關的配置文件放在image外面，在run container的時候再掛載。
 * 將log文件掛載在container 之外。
 * 按照時間段分割日誌文件。
+
+### Code Structure
+[link](/code.md/)
+
+### Project Manage
+* 完整計畫，要包含開發環境的資訊。 要先確認每個人都是在同樣的基準點，沒有認知上的誤差。
+* 工作目標, 工作項目, 時間預估
 
 ### Rails
 ------------------------------------
